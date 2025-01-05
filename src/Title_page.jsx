@@ -8,5 +8,6 @@ function Titlepage(){
         <input type="text" /> 
         
     </form>
-</div> 
+    </div> 
 }
+export default Titlepage;
