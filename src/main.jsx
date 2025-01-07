@@ -8,10 +8,11 @@ import Titlepage from './Title_page.jsx'
 import Convert from './Convert.jsx'
 import TodoList from './Date.jsx'
 import FormatDate from './Date.jsx'
+import HandleList from './Rendering_elements.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FormatDate />
+    <HandleList />
   </StrictMode>, 
 )
