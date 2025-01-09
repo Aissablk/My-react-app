@@ -14,10 +14,11 @@ import ListItem from './Rendering_composants.jsx'
 import Affiche from './Rendering_composants.jsx'
 import Lion from './Conditions.jsx'
 import Affichage from './Conditions_2.jsx'
+import TodoKeylist from './Keys_in_react.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Affichage />
+    <TodoKeylist />
   </StrictMode>, 
 ) 

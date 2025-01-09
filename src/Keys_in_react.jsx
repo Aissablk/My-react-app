@@ -4,7 +4,7 @@ const ListOftasks=[
     {Task:"play a game ", id: crypto.randomUUID()}
 
 ];
-function TodoList(){
+export default function TodoKeylist(){
     return <div>
         {ListOftasks.map((task) => <div key={task.id}> {task.Task}</div>)} 
     
