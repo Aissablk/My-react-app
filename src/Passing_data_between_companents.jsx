@@ -1,7 +1,13 @@
-function Button(){
+function Button(props){
+    const buttonStyle={
+        color : props.color,
+        fontSize : props.fontSize +"px" 
+
+
+    };
     return <div>
-        <button>
-            Click on me
+        <button style={buttonStyle}>
+            {props.text}
         </button>
     </div>
 }
@@ -9,8 +15,8 @@ function Button(){
 export default function ButtonList(){
     return(
     <div>
-        <Button />
-        <Button />
+        <Button color="red" fontSize={12} text="dont click now" />
+        <Button   color="green" fontSize={12} text="click now"/> 
     </div>
     )
-}
+} 
