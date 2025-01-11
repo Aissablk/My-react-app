@@ -6,7 +6,7 @@ function Button(){
     </div>
 }
 
-export default function(){
+export default function ButtonList(){
     <div>
         <Button />
         <Button />
