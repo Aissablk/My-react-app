@@ -1,5 +1,5 @@
 function Button(){
-    <div>
+    return <div>
         <button>
             Click on me
         </button>
@@ -7,8 +7,10 @@ function Button(){
 }
 
 export default function ButtonList(){
+    return(
     <div>
         <Button />
         <Button />
     </div>
+    )
 }
