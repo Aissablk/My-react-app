@@ -20,10 +20,11 @@ import Mynewbutton from './State_React.jsx'
 import NewButton from './State_React.jsx'
 import Profile from './Sculptruel.jsx'
 import Person from './More_about_state.jsx'
+import Personss from './More_about_state.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Person />
+   <Personss />
   </StrictMode>, 
 ) 

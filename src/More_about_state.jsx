@@ -1,4 +1,6 @@
-function Person() {
+import { useState } from "react";
+
+function Personss() {
     const [person, setPerson] = useState({ name: "John", age: 100 });
   
     const handleIncreaseAge = () => {
@@ -13,11 +15,11 @@ function Person() {
     console.log("during render: ", person);
   
     return (
-      <>
+      <div>
         <h1>{person.name}</h1>
         <h2>{person.age}</h2>
         <button onClick={handleIncreaseAge}>Increase age</button>
-      </>
+      </div>
     );
   }
-  export default Person;
+export default Personss;
