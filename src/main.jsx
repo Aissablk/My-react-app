@@ -21,10 +21,12 @@ import NewButton from './State_React.jsx'
 import Profile from './Sculptruel.jsx'
 import Person from './More_about_state.jsx'
 import Personss from './More_about_state.jsx'
+import CustomInput from './Composant_controlé.jsx'
+import StringOnlyInput from './Composant_controlé.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Personss />
+   <StringOnlyInput/> 
   </StrictMode>, 
 ) 
